@@ -1,0 +1,279 @@
+@font-face {
+    font-family: bangla;
+    src: url(../fonts/FN-Mahfuj-Rumaysa.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bangla {
+    font-family: bangla;
+}
+
+#section-title {
+    margin: 50px auto;
+    font-weight: bold;
+}
+
+
+/*
+**************************
+
+Hero Section
+
+**************************
+
+*/
+
+#hero {
+    height: 100vh;
+    background: url(../images/hero-bg.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.honey-text {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.honey-text h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+/*
+**************************
+
+Product Section
+
+**************************
+
+*/
+
+.single-product {
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    padding: 8px;
+    border: 1px solid rgb(49, 49, 49);
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.product-img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product-name {
+    text-align: center;
+}
+
+.product-price {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.regular-price h4 {
+    text-decoration: line-through;
+    color: rgb(255, 51, 51);
+}
+
+.sale-price h4 {
+    color: green;
+}
+
+.buy-button button {
+    background: #1EB19F;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+/*
+**************************
+
+Youtube Video Section
+
+**************************
+
+*/
+
+#youtube-video {
+    margin: 100px auto;
+}
+
+/*
+**************************
+
+Benefit Section
+
+**************************
+
+*/
+
+.benefit-box {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.single-benefit {
+    width: 30%;
+    min-height: 250px;
+    margin: 10px;
+}
+
+.benefit-desc p {
+    font-size: 16px;
+}
+
+.faq-content {
+    margin: 30px auto;
+}
+
+.honey-img {
+    background: transparent !important;
+}
+
+.honey-img img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.panel-title a {
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(0, 56, 0);
+}
+
+.panel-body {
+    font-size: 18px;
+}
+
+.faq-order-button button {
+    background: #1EB19F;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*
+**************************
+
+Review Section
+
+**************************
+
+*/
+
+#review-section {
+    margin: 30px auto;
+}
+
+.slider-box {
+    margin-top: 30px;
+}
+
+.single-slide {
+    padding: 7px;
+    margin: 0 10px;
+    background: rgb(235, 235, 235);
+    border: 2px solid #1EB19F;
+    border-radius: 5px;
+}
+
+.single-slide img {
+    width: 100%;
+}
+
+/*
+**************************
+
+Order Section
+
+**************************
+
+*/
+
+#order-section{
+    background-color: #eeeeee;
+    padding-bottom: 60px;
+}
+
+.geo-location {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.geo-location select {
+    width: 33%;
+}
+
+.address-box input {
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px 17px;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 600;
+    display: inline-block;
+    height: 50px;
+    border: 1px solid #1EB19F;
+}
+
+.address-box textarea {
+    border: 1px solid #1EB19F;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.address-box select {
+    border: 1px solid #1EB19F;
+    height: 50px;
+}
+
+#order-section table {
+    width: 100%;
+}
+
+#order-section table,
+th,
+td {
+    border: 1px solid #1EB19F;
+    height: 50px;
+    padding: 0px 15px;
+    font-weight: 600;
+}
+
+#order-section th{
+    font-size: 18px;
+}
+
+#order-section table input{
+    width: 50px;
+}
+
+#order-section table button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    font-weight: 600;
+}
+
+#order-section input[type=submit] {
+    margin: 7px auto;
+    background-color: #1EB19F;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+}
