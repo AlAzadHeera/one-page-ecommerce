@@ -120,7 +120,7 @@ Benefit Section
 */
 
 .benefit-box {
-    width: 80%;
+    width: 75%;
     margin: 30px auto;
     display: flex;
     justify-content: flex-start;
@@ -128,9 +128,7 @@ Benefit Section
 }
 
 .single-benefit {
-    width: 30%;
-    min-height: 250px;
-    margin: 10px;
+    min-height: 210px;
 }
 
 .benefit-desc p {
@@ -204,7 +202,7 @@ Order Section
 
 */
 
-#order-section{
+#order-section {
     background-color: #eeeeee;
     padding-bottom: 60px;
 }
@@ -255,15 +253,15 @@ td {
     font-weight: 600;
 }
 
-#order-section th{
+#order-section th {
     font-size: 18px;
 }
 
-#order-section table input{
+#order-section table input {
     width: 50px;
 }
 
-#order-section table button{
+#order-section table button {
     width: 30px;
     height: 30px;
     border: none;
@@ -304,8 +302,8 @@ Footer Section
 
 */
 
-footer{
-    background: #000000;
+footer {
+    background: #202124;
     padding: 50px 0 30px 0;
 }
 
@@ -314,4 +312,65 @@ footer .horizontal-divider {
     height: 2px;
     margin: 30px auto;
     background-color: #FFFFFF;
+}
+
+.address-box p {
+    color: #FFFFFF;
+}
+
+.address-box p i {
+    padding-right: 10px;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+
+.social-links ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.social-links ul li a {
+    text-align: center;
+    text-decoration: none;
+    color: #1EB19F;
+    font-size: 22px;
+}
+
+.social-links ul li a i {
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-links ul li{
+    list-style: none;
+}
+
+.page-links ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.credit-text b{
+    color: #FFFFFF;
+}
+
+.credit-text a{
+    color: #1EB19F;
 }

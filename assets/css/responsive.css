@@ -1,0 +1,32 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+    .address-box, .social-links, .page-links    {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {}
+
+/* Custom Size */
+@media only screen and (max-width: 507px) {
+    #order-section table button{
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    #order-section table input {
+        width: 100%;
+    }
+}
