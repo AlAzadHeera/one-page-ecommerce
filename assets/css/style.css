@@ -277,3 +277,41 @@ td {
     font-size: 18px;
     font-weight: 600;
 }
+
+/*
+**************************
+
+Stat Section
+
+**************************
+
+*/
+
+#stat-section {
+    padding: 40px 0 15px 0;
+}
+
+.stat-desc h2 {
+    font-weight: 600;
+}
+
+/*
+**************************
+
+Footer Section
+
+**************************
+
+*/
+
+footer{
+    background: #000000;
+    padding: 50px 0 30px 0;
+}
+
+footer .horizontal-divider {
+    width: 75%;
+    height: 2px;
+    margin: 30px auto;
+    background-color: #FFFFFF;
+}
